@@ -6,7 +6,6 @@ def is_prime(n):
             return False
     return True
 
-# Assuming 'numbers' is a list of integers
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 prime_numbers = list(filter(lambda x: is_prime(x), numbers))
 print(prime_numbers)
